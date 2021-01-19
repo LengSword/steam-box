@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        ref: steam-box
+        ref: master
         fetch-depth: 0
         lfs: true
 
